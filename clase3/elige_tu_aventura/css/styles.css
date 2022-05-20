@@ -2,10 +2,16 @@ body{
     background-image: url("https://www.solofondos.com/wp-content/uploads/2015/12/fondo-animado-cielo-azul-full-apk.png");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 250px;
+    padding: 120px;
     text-align: center;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 8px;
+    color: rgb(255, 255, 255);
 }
 .titulo{
+    color: rgb(0, 0, 0);
+}
+.pregunta{
     letter-spacing: 4px;
     font-weight: bold;
     text-transform: uppercase;
@@ -13,7 +19,7 @@ body{
 .boton_si{
     background-color: rgb(70, 70, 236);
     border: none;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -24,10 +30,32 @@ body{
 .boton_no{
     background-color: rgb(207, 207, 207);
     border: none;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+.boton_volver{
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 50px;
+}
+.recuadro{
+    background-color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.recuadro>h2.titulo{
+    color: rgb(255, 255, 255);
+}
+.recuadro>h2.muerte{
+    color:rgb(196, 18, 18);
 }
