@@ -1,0 +1,33 @@
+body{
+    background-image: url("https://www.solofondos.com/wp-content/uploads/2015/12/fondo-animado-cielo-azul-full-apk.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px;
+    text-align: center;
+}
+.titulo{
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.boton_si{
+    background-color: rgb(70, 70, 236);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 20px;
+}
+.boton_no{
+    background-color: rgb(207, 207, 207);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

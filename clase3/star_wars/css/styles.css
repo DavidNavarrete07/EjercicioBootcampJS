@@ -9,9 +9,11 @@ body{
     background-color: rgb(224, 58, 58);
 }
 .soldados{
+    border: 2px solid;
+    letter-spacing: 10px;
+}
+.rebeldes{
     background-color: rgb(71, 71, 212);
-    border: 4px dotted;
-    letter-spacing: 5px;
 }
 #darth_vader{
     font-size: 30px;
