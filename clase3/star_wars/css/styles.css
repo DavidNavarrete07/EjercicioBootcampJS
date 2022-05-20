@@ -1,0 +1,34 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png");
+    color: white;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+}
+.imperio{
+    background-color: rgb(224, 58, 58);
+}
+.soldados{
+    background-color: rgb(71, 71, 212);
+    border: 4px dotted;
+    letter-spacing: 5px;
+}
+#darth_vader{
+    font-size: 30px;
+}
+#luke{
+    font-style: italic;
+}
+.apoyo{
+    text-align: center;
+}
+.naves{
+    text-transform: uppercase;
+}
+.droides{
+    display: block;
+    margin: auto;
+}
+ul>li{
+    list-style-type: none;
+}
