@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstaPet</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="contenedor">
+        <div class="caja">
+            <h1>Bienvenido(a) a InstaPet</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus odit deleniti nemo repellendus
+                explicabo, laboriosam hic quas quaerat numquam, nesciunt sint, alias quod cum voluptas ad reprehenderit
+                vel? Similique, inventore!</p>
+        </div>
+        <div class="caja">
+            <div class="columna" id="menu">
+                Columna MENU
+            </div>
+            <div class="columna" id="main">
+                <h3>Ingrese los datos para ingresar su mascota</h3>
+                <form method="GET">
+                    <p>
+                        <label>Nombre:</label>
+                        <input type="text" placeholder="Nombre de mascota" required>
+                    </p>
+                    <p>
+                        <label>Edad:</label>
+                        <input type="number" placeholder="Edad de mascota" required>
+                    </p>
+                    <p>
+                        <label>Color:</label>
+                        <input type="color" placeholder="Color de mascota" required>
+                    </p>
+                    <p>
+                        <label>Correo:</label>
+                        <input type="email" placeholder="Ingrese su correo" required>
+                    </p>
+                    <p>
+                        <label>Contraseña:</label>
+                        <input type="password" placeholder="Ingrese su contraseña" required>
+                    </p>
+                    <p>
+                        <label>Consulta:</label>
+                        <br>
+                        <textarea cols="30" rows="10" required></textarea>
+                    </p>
+                    <p>
+                        <input type="checkbox" required> Acepto los términos y condiciones
+                    </p>
+                    <p>
+                        <input class="boton_enviar" type="submit"></input>
+                    </p>
+                </form>
+            </div>
+            <div class="columna" id="publicidad">
+                Columna Publicidad
+            </div>
+        </div>
+        <div class="caja">
+            <div class="columna">
+                <h4><strong>Video</strong></h4>
+                <iframe width="auto" height="auto" src="https://www.youtube.com/embed/b0wBrIOxABk"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="columna">
+                <h4><strong>Mapa</strong></h4>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3202.132539723339!2d-72.13578788486076!3d-36.623196179985435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x966928059321bc99%3A0x40aab2324c7a2f31!2sAnimal%20Vet!5e0!3m2!1ses!2scl!4v1653319197491!5m2!1ses!2scl"
+                    width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
