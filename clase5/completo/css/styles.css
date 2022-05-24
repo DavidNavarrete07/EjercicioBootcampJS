@@ -1,0 +1,29 @@
+
+body{
+    text-align: center;
+    color: black;
+    background-color: rgb(230, 230, 230);
+} 
+div{
+    margin: 0px auto;
+}
+.pan{
+    width: 700px;
+    height: 100px;
+    background-color: rgb(230, 158, 99);
+}
+#pan_arriba{
+    border-radius: 130px 130px 20px 20px;
+    border-bottom: 10px solid rgb(243, 141, 57);
+}
+#pan_abajo{
+    border-radius: 20px 20px 130px 130px;
+    border-top: 10px solid rgb(243, 141, 57);
+}
+
+.vienessa{
+    width: 800px;
+    height: 100px;
+    background-color: salmon;
+    border-radius: 40px;
+}
